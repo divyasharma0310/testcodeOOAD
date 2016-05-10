@@ -12,5 +12,5 @@ void Stack::push(int value)
 
 int Stack::pop()
 {
-    return _stack[--top];
+    return _stack[top--];
 }
